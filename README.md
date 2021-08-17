@@ -1,6 +1,7 @@
 # VoiceConverter
 - Cycle GAN系の声質変換モデルの残骸．一応MIT Licenseで公開するので好きに使ってください  
 - ノンパラレル，言語情報不使用，少量 (7-8分程度) のデータで美少女声になりたかった
+- U-GAT-ITとVocGANについては，元のプログラムを若干改造しただけなので，配布元のMIT Licenseを同梱
 
 # 学習方法
 - それぞれのディレクトリにあるsourceとtargetにそれぞれ変換元の話者，変換先の話者のwave (22.05[kHz]) をぶち込んでtrain.pyを実行  
