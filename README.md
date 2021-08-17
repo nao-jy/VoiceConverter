@@ -29,7 +29,7 @@
 ## Scyclone
 - 東北大の[こちら](http://www.spcom.ecei.tohoku.ac.jp/nose/research/scyclone_202001/)の論文の実装
 - 原著では通常のスペクトログラムの予測だが，Vocoderの学習が手間だったのでメルスペクトログラムの予測とした
-- 私が行った学習は，総音声データが8分未満とかなり少なかったためMode Collapseが発生した
+- 私が行った学習は，総音声データが6分未満とかなり少なかったためMode Collapseが発生した
 - 正規化手法をSpectral NormalizationからInstance Normalizationへ変更したところ，Mode Collapseの発生は無くなったが，韻律情報が不安定になった
   - 女性声優の演技と，男性の話し声の調子では，その韻律分布がかなり異なるっぽいので，スタイル変換という目的からしたら当然と言えば当然の結果
 
@@ -50,3 +50,5 @@
   - ~~BERTかな？？~~
 - 普通にData Augmentationすればよくね？？
   - MaskCycleGAN-VCも実質Data Augmentationしてるみたいなところあるし……
+- Voice Conversion Challengeのサーベイ
+- 言語情報の使用や，大規模コーパスでの学習 → fine-tune的なのの検討
