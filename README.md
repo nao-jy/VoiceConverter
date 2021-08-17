@@ -25,7 +25,7 @@
 - また，韻律に関しても，CycleGAN-VC3より不安定な印象
 - 今回の実装では，Maskのパラメータは，評価が最も良かった50%ものを使用
 
-## Syclone
+## Scyclone
 - 東北大の[こちら](http://www.spcom.ecei.tohoku.ac.jp/nose/research/scyclone_202001/)の論文の実装
 - 原著では通常のスペクトログラムの予測だが，Vocoderの学習が手間だったのでメルスペクトログラムの予測とした
 - 私が行った学習は，総音声データが8分未満とかなり少なかったためMode Collapseが発生した
