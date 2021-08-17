@@ -49,3 +49,4 @@
 - Attentionを使用すれば声質がかなり変換され，Maskをすれば言語情報が保持される → 両方合わせれば最強なのでは？？？
   - ~~BERTかな？？~~
 - 普通にData Augmentationすればよくね？？
+  - MaskCycleGAN-VCも実質Data Augmentationしてるみたいなところあるし……
